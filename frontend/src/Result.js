@@ -215,8 +215,15 @@ function Results({ type, data, onBack, loading }) {
       {type === 'summary' && !loading && (
         <div className="summary-center-outer">
           <div className="summary-center-inner">
-            <div className="summary-box">{summaryString}</div>
+            <div className="summary-box summary-justified">
+              {summaryString
+                .split(/\n\s*\n/)
+                .filter(Boolean)
+                .map((para, i) => (
+                  <p key={i}>{para.trim()}</p>
+                ))}
           </div>
+        </div>
         </div>
       )}
     </div>
