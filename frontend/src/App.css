@@ -337,3 +337,7 @@ body {
     max-width: 99vw !important;
     width: 98vw !important;
   }}
+  .summary-box.summary-justified p {
+    text-align: justify;
+    margin-bottom: 1em;
+  }
