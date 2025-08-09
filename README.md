@@ -80,3 +80,7 @@ npm install
 
 #Start the development server
 npm start
+
+<img width="1899" height="939" alt="Screenshot 2025-08-09 200731" src="https://github.com/user-attachments/assets/82182da6-3753-408a-bb75-9ba57e2dd3d4" />
+
+<img width="1871" height="911" alt="Screenshot 2025-08-09 200741" src="https://github.com/user-attachments/assets/2f6688eb-2160-4194-9a00-c81ae4f0c9c7" />
